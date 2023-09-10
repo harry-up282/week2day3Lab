@@ -1,33 +1,33 @@
-.wrap {
+.wrapper {
   height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #87a08b;
 }
-.slider {
+.rotation {
   position: relative;
   width: 48%;
   overflow: hidden;
 }
-.images {
+.pics {
   display: flex;
   width: 100%;
 }
-.images img {
+.pics img {
   height: 500px;
   width: 100%;
   transition: all 0.15s ease;
 }
-.images input {
+.pics input {
   display: none;
 }
-.dots {
+.radio-button {
   display: flex;
   justify-content: center;
   margin: 5px;
 }
-.dots label {
+.radio-button label {
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -36,7 +36,7 @@
   transition: all 0.15s ease;
   margin: 5px;
 }
-.dots label:hover {
+.radio-button label:hover {
   background: white;
 }
 #img1:checked ~ .aa {
